@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   max-width: 900px;
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 .explicitly-placed li:nth-child(1) {

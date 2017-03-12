@@ -32,8 +32,13 @@ section {
 ul {
   list-style: none;
   margin: 0;
-  padding: 30px;
-  background-color: #d5d0e4;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #b5b5b5;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 h1 {
