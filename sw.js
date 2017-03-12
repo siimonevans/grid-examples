@@ -1,18 +1,19 @@
 // Polyfill for Chrome caching
-importScripts('js/cache-polyfill.js');
+importScripts('cache-polyfill.js');
 
 // Install the ServiceWorker
 self.addEventListener('install', function(event) {
   event.waitUntil(
 
     // Open a cache
-    caches.open('grids').then(function(cache) {
+    caches.open('grids2').then(function(cache) {
 
       // Define what we want to cache
       return cache.addAll([
         '/',
         'index.html',
-        'js/app.js',
+        'app.js',
+        'cache-polyfill.js',
         'manifest.json',
         'css/base.css',
         'css/fluid.css',
