@@ -6,7 +6,7 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
 
     // Open a cache
-    caches.open('grids2').then(function(cache) {
+    caches.open('grids').then(function(cache) {
 
       // Define what we want to cache
       return cache.addAll([
