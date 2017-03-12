@@ -30,8 +30,14 @@
           <li><img src="https://placebear.com/g/600/600"></li>
           <li><img src="https://placebear.com/g/600/600"></li>
           <li><img src="https://placebear.com/g/600/600"></li>
-          <li><img src="https://placebear.com/g/600/600"></li>
         </ul>
+        <div class="explanation">
+          <h4>.grid-container</h4>
+          <div><p>display: grid;</p></div>
+          <div><p>grid-template-columns: repeat(7, 1fr);</p></div>
+          <div><p>grid-gap: 20px;</p></div>
+          <div><p>max-width: 100%;</p></div>
+        </div>
       </section>
       
       <section class="responsive">
@@ -52,27 +58,51 @@
           <li><img src="https://placebear.com/g/600/600"></li>
           <li><img src="https://placebear.com/g/600/600"></li>
           <li><img src="https://placebear.com/g/600/600"></li>
-          <li><img src="https://placebear.com/g/600/600"></li>
-          <li><img src="https://placebear.com/g/600/600"></li>
-          <li><img src="https://placebear.com/g/600/600"></li>
-          <li><img src="https://placebear.com/g/600/600"></li>
-          <li><img src="https://placebear.com/g/600/600"></li>
-          <li><img src="https://placebear.com/g/600/600"></li>
-          <li><img src="https://placebear.com/g/600/600"></li>
-          <li><img src="https://placebear.com/g/600/600"></li>
-          <li><img src="https://placebear.com/g/600/600"></li>
         </ul>
+        <div class="explanation">
+          <h4>.grid-container</h4>
+          <div><p>display: grid;</p></div>
+          <div><p>grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));</p></div>
+          <div><p>grid-gap: 20px;</p></div>
+        </div>
       </section>
 
       <section class="explicitly-placed">
         <h1>Explicitly Placed</h1>
         <ul class="grid-container">
-        <li><img src="https://placebear.com/g/600/600"></li>
-        <li><img src="https://placebear.com/g/600/600"></li>
-        <li><img src="https://placebear.com/g/600/600"></li>
-        <li><img src="https://placebear.com/g/600/600"></li>
-        <li><img src="https://placebear.com/g/600/600"></li>
+          <li><img src="https://placebear.com/g/600/600"></li>
+          <li><img src="https://placebear.com/g/600/600"></li>
+          <li><img src="https://placebear.com/g/600/600"></li>
+          <li><img src="https://placebear.com/g/600/600"></li>
+          <li><img src="https://placebear.com/g/600/600"></li>
         </ul>
+        <div class="explanation">
+          <h4>.grid-container</h4>
+          <div><p>display: grid;</p></div>
+          <div><p>grid-template-columns: repeat(4, 1fr);</p></div>
+          <div><p>max-width: 900px;</p></div>
+          <div><p>grid-gap: 20px;</p></div>
+
+          <h4>li:nth-child(1)</h4>
+          <div><p>grid-column: 2 / 3;</p></div>
+          <div><p>grid-row: 1 / 2;</p></div>
+
+          <h4>li:nth-child(2)</h4>
+          <div><p>grid-column: 4 / 5;</p></div>
+          <div><p>grid-row: 2 / 3;</p></div>
+
+          <h4>li:nth-child(3)</h4>
+          <div><p>grid-column: 3 / 4;</p></div>
+          <div><p>grid-row: 3 / 4;</p></div>
+
+          <h4>li:nth-child(4)</h4>
+          <div><p>grid-column: 1 / 2;</p></div>
+          <div><p>grid-row: 5 / 6;</p></div>
+
+          <h4>li:nth-child(4)</h4>
+          <div><p>grid-column: 4 / 5;</p></div>
+          <div><p>grid-row: 5 / 6;</p></div>
+        </div>
       </section>
 
       <section class="overlapping">
@@ -82,6 +112,25 @@
           <li><img src="https://placebear.com/g/600/900"></li>
           <li><img src="https://placebear.com/g/600/600"></li>
         </ul>
+        <div class="explanation">
+          <h4>.grid-container</h4>
+          <div><p>display: grid;</p></div>
+          <div><p>grid-template-columns: 0.8fr 0.4fr 0.4fr 0.6fr 1.2fr</p></div>
+
+          <h4>li:nth-child(1)</h4>
+          <div><p>grid-column: 1 / span 2;</p></div>
+          <div><p>grid-row: 1 / span 2;</p></div>
+          <div><p>z-index: 2;</p></div>
+
+          <h4>li:nth-child(2)</h4>
+          <div><p>grid-column: 2 / span 3;</p></div>
+          <div><p>grid-row: 2 / span 4</p></div>
+
+          <h4>li:nth-child(3)</h4>
+          <div><p>grid-column: 4 / span 2</p></div>
+          <div><p>grid-row: 4 / span 3</p></div>
+          <div><p>z-index: 2;</p></div>
+        </div>
       </section>
 
    </main>  

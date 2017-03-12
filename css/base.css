@@ -9,6 +9,7 @@ html {
 
 body {
   margin: 0;
+  color: #fff;
   background-color: #11082B;
 }
 
@@ -44,6 +45,28 @@ li {
 h1 {
   font-size: 30px;
   margin: 0 0 10px;
-  color: #fff;
   font-weight: 300;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.explanation {
+  margin: 40px 0 0;
+  font-family: monospace;
+  padding: 0 10px 10px;
+  border: 1px solid #b5b5b5;
+  display: inline-block;
+}
+
+.explanation > div > p {
+  display: inline-block;
+  margin: 0 0 0 14px;
+  line-height: 20px;
+  padding: 0 10px;
+}
+
+.explanation > div > p:hover {
+  background-color: #6140bf;
 }
