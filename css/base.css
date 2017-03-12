@@ -4,7 +4,7 @@
 
 html {
   font-size: 100%;
-  font-family: Helvetica;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 body {
@@ -39,6 +39,6 @@ ul {
 h1 {
   font-size: 30px;
   margin: 0 0 10px;
-  font-weight: 300;
   color: #fff;
+  font-weight: 300;
 }
