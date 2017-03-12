@@ -24,6 +24,10 @@ section {
   padding: 50px 0;
 }
 
+section:first-of-type {
+  padding: 0;
+}
+
 @media screen and (max-width: 1220px) {
   section {
     padding: 20px;
@@ -69,4 +73,19 @@ h4 {
 
 .explanation > div > p:hover {
   background-color: #6140bf;
+}
+
+.no-support {
+  max-width: 1200px;
+  margin: 30px auto 0;
+  font-size: 23px;
+  line-height: 1.5;
+  background: #ff5b5b;
+  padding: 20px;
+}
+
+@supports (display: grid) {
+  .no-support {
+    display: none;
+  } 
 }
