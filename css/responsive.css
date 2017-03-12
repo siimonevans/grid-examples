@@ -1,5 +1,5 @@
 .responsive ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  grid-gap: 0.25rem;
+  grid-gap: 20px;
 }

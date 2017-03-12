@@ -1,7 +1,8 @@
 .explicitly-placed ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  max-width: 600px;
+  max-width: 900px;
+  grid-gap: 10px;
 }
 
 .explicitly-placed li:nth-child(1) {
