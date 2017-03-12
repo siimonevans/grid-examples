@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: Helvetica;
+}
+
+body {
+  margin: 0;
+  background-color: #11082B;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 700px) {
+  section {
+    padding: 20px;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 30px;
+  background-color: #d5d0e4;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0 0 10px;
+  font-weight: 300;
+  color: #fff;
+}
