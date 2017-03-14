@@ -1,7 +1,7 @@
 .masonry-1 ul {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 200px 200px 620px;
+  grid-template-columns: 0.3fr 0.3fr;
 }
 
 .masonry-1 li:nth-child(1) {
