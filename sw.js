@@ -20,8 +20,8 @@ self.addEventListener('install', function(event) {
         'css/responsive.css',
         'css/explicit.css',
         'css/overlap.css',
-        'img/bear.jpg',
-        'img/bear2.jpg'
+        'css/masonry-1.css',
+        'css/masonry-2.css'
       ]);
     })
   );
