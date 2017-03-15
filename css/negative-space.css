@@ -1,0 +1,26 @@
+.negative-space ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  background-color: #1f1246;
+}
+
+.negative-space li {
+  grid-column-start: 2;
+  padding: 250px 70px;
+  height: auto;
+  background-color: transparent;
+}
+
+.negative-space li h1 {
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.negative-space li p {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
