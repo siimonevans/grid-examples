@@ -1,7 +1,6 @@
 .negative-space ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 30px;
   background-color: #1f1246;
 }
 
