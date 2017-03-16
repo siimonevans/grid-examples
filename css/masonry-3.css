@@ -6,10 +6,8 @@
 
 .masonry-3 ul li {
   height: auto;
-  padding: 30px;
+  padding: 20px;
   background-color: #fff;
-  color: #11082B;
-  font-size: 28px;
   min-height: 200px;
 }
 
@@ -29,4 +27,13 @@
 
 .masonry-3 ul li:nth-of-type(11) {
   grid-column: 1 / span 3;
+}
+
+.masonry-3 li div {
+  background: #11082B;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 9px;
+  font-size: 12px;
+  font-weight: 600;
 }
