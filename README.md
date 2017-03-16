@@ -1,4 +1,4 @@
-#CSS grid examples
+# CSS Grid examples
 
 Test out CSS grid layout properties.
 
