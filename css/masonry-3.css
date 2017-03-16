@@ -1,0 +1,32 @@
+.masonry-3 ul {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 0.5fr 1fr 2fr 1fr;
+}
+
+.masonry-3 ul li {
+  height: auto;
+  padding: 30px;
+  background-color: #fff;
+  color: #11082B;
+  font-size: 28px;
+  min-height: 200px;
+}
+
+.masonry-3 ul li:nth-of-type(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.masonry-3 ul li:nth-of-type(2) {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.masonry-3 ul li:nth-of-type(3) {
+  grid-row: 1 / span 4;
+}
+
+.masonry-3 ul li:nth-of-type(11) {
+  grid-column: 1 / span 3;
+}
