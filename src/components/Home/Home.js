@@ -17,7 +17,7 @@ class Home extends Component {
 
           <Link to='/Responsive'><div>Autoflow</div></Link>
           <Link to='/Masonry2'><div>Masonry II</div></Link>
-          <Link to='/Responsive'><div>Masonry III</div></Link>
+          <Link to='/Masonry3'><div>Masonry III</div></Link>
           <Link to='/Responsive'><div>Overlap II</div></Link>
           <Link to='/Responsive'><div>Packing</div></Link>
         </div>

@@ -5,6 +5,7 @@ import Header from './components/Header/Header'
 import Home from './components/Home/Home'
 import Masonry from './components/Masonry/Masonry'
 import Masonry2 from './components/Masonry/Masonry2'
+import Masonry3 from './components/Masonry/Masonry3'
 import Fluid from './components/Fluid/Fluid'
 import NotFound from './components/NotFound/NotFound'
 import './css/App.css'
@@ -27,6 +28,7 @@ class App extends Component {
             <IndexRoute component={Home} />
             <Route path='Masonry' component={Masonry} />
             <Route path='Masonry2' component={Masonry2} />
+            <Route path='Masonry3' component={Masonry3} />
             <Route path='Fluid' component={Fluid} />
 
             // 404

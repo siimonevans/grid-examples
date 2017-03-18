@@ -31,6 +31,10 @@ h1 {
   letter-spacing: 1px
 }
 
+h4 {
+  margin: 15px 0 3px;
+}
+
 .wrapper {
   max-width: 1300px;
   margin: 0 auto;
@@ -49,7 +53,7 @@ section li {
   margin: 40px 0 0;
   font-family: monospace;
   padding: 0 10px 10px;
-  border: 1px solid #b5b5b5;
+  border: 1px solid #425ad6;
   display: inline-block;
 }
 
