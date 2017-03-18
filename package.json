@@ -2,6 +2,7 @@
   "name": "css-grid",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://sii.im/playground/css-grid",
   "devDependencies": {
     "react-scripts": "0.7.0",
     "sw-precache": "^4.2.2"
