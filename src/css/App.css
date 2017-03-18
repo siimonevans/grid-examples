@@ -19,7 +19,7 @@ body {
   margin: 0;
 }
 
-@keyframes fadein {
+@keyframes fadeIn {
   from { 
     opacity: 0; 
     transform: translate3d(0, 10px, 0);
@@ -30,9 +30,20 @@ body {
   }
 }
 
+@keyframes slideIn {
+  from { 
+    opacity: 0; 
+    transform: translate3d(-10px, 0, 0);
+  }
+  to { 
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 li {
   list-style: none;
-  animation: fadein 1000ms;
+  animation: fadeIn 1000ms;
 }
 
 ul {
@@ -89,4 +100,19 @@ section li {
 
 .explanation > div > p:hover {
   background-color: #6140bf;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.example-leave {
+  opacity: 1;
+}
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
 }

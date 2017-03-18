@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import './Masonry.css'
+import Navigation from '../../components/Navigation/Navigation'
 
 class Masonry3 extends Component {
   render() {
     return (
       <div className="wrapper">
+        <Navigation></Navigation>
         <section className="masonry-3">
           <h1>Masonry III</h1>
           <ul>

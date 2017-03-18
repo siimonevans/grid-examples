@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import './ExplicitlyPlaced.css'
+import Navigation from '../../components/Navigation/Navigation'
 
 class ExplicitlyPlaced extends Component {
   render() {
     return (
       <div className="wrapper">
+        <Navigation></Navigation>
         <section className="explicitly-placed">
           <h1>Explicitly Placed</h1>
           <ul>

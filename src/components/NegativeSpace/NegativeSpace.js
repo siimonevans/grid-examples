@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import './NegativeSpace.css'
+import Navigation from '../../components/Navigation/Navigation'
 
 class NegativeSpace extends Component {
   render() {
     return (
       <div className="wrapper">
+        <Navigation></Navigation>
         <section className="negative-space">
           <h1>Negative Space</h1>
           <ul>

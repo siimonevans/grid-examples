@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import './Responsive.css'
+import Navigation from '../../components/Navigation/Navigation'
 
 class Responsive extends Component {
   render() {
     return (
       <div className="wrapper">
+        <Navigation></Navigation>
         <section className="responsive">
           <h1>Responsive</h1>
           <ul>

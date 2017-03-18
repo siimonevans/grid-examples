@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import './Fluid.css'
+import Navigation from '../../components/Navigation/Navigation'
 
 class Fluid extends Component {
   render() {
     return (
       <div className="wrapper">
+        <Navigation></Navigation>
         <section className="fluid">
           <h1>Fluid</h1>
           <ul>

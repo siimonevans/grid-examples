@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import './Overlap.css'
+import Navigation from '../../components/Navigation/Navigation'
 
 class Overlap extends Component {
   render() {
     return (
       <div className="wrapper">
+        <Navigation></Navigation>
         <section className="overlap">
           <h1>Overlap</h1>
           <ul>

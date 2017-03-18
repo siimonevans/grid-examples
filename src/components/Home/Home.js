@@ -22,7 +22,7 @@ class Home extends Component {
   render() {
     return (
       <div className="wrapper">
-        <h1>CSS Grids</h1>
+        <h1>CSS Grid examples</h1>
         <Support></Support>
         <div className="home-grid" id="home-grid">
           <Link to='/Masonry'><div>Masonry I</div></Link>
