@@ -16,12 +16,11 @@ class Home extends Component {
           <Link to='/Overlap'><div>Overlap I</div></Link>
           <Link to='/ExplicitlyPlaced'><div>Explicitly Placed</div></Link>
           <Link to='/NegativeSpace'><div>Negative Space</div></Link>
-
-          <Link to='/Responsive'><div>Autoflow</div></Link>
+          <Link to='/'><div></div></Link>
           <Link to='/Masonry2'><div>Masonry II</div></Link>
           <Link to='/Masonry3'><div>Masonry III</div></Link>
           <Link to='/Overlap2'><div>Overlap II</div></Link>
-          <Link to='/Responsive'><div>Packing</div></Link>
+          <Link to='/'><div></div></Link>
         </div>
       </div>
     )
