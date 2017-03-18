@@ -1,0 +1,26 @@
+.navigation {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding: 50px 0;
+  background-color: #556270;
+  display: none;
+}
+
+.navigation__logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  transition: opacity 300ms ease;
+}
+
+.navigation__logo:hover {
+  opacity: 0.7;
+}
+
+.navigation__link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 50px;
+  cursor: pointer;
+}

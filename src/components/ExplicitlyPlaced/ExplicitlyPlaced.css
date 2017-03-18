@@ -1,8 +1,12 @@
 .explicitly-placed ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  max-width: 900px;
+  max-width: 600px;
   grid-gap: 20px;
+}
+
+.explicitly-placed li {
+  min-height: 130px;
 }
 
 .explicitly-placed li:nth-child(1) {
@@ -19,6 +23,7 @@
   grid-column: 2 / 3;
   grid-row: 3 / 4;
 }
+
 .explicitly-placed li:nth-child(4) {
   grid-column: 1 / 2;
   grid-row: 4 / 5;

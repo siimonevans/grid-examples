@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #1F3AC1;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-height: 100vh;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  background-color: #1F3AC1;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  font-weight: 100;
+  font-size: 30px;
+  letter-spacing: 1px
+}
+
+h4 {
+  margin: 15px 0 3px;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.app-wrapper {
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 1220px) {
+  .app-wrapper {
+    padding: 50px 20px;
+  }
+}
+
+section li {
+  min-height: 200px;
+  background-color: #fff;
+}
+
+.explanation {
+  margin: 40px 0 0;
+  font-family: monospace;
+  padding: 0 10px 10px;
+  border: 1px solid #425ad6;
+  display: inline-block;
+}
+
+.explanation > div > p {
+  display: inline-block;
+  margin: 0 0 0 14px;
+  line-height: 20px;
+  padding: 0 10px;
+}
+
+.explanation > div > p:hover {
+  background-color: #6140bf;
+}
