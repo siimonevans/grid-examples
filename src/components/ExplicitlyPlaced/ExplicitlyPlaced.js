@@ -17,21 +17,29 @@ class ExplicitlyPlaced extends Component {
           <div className="explanation">
             <h4>ul</h4>
             <div><p>display: grid;</p></div>
-            <div><p>grid-template-columns: 0.8fr 0.4fr 0.4fr 0.6fr 1.2fr;</p></div>
+            <div><p>max-width: 600px;</p></div>
+            <div><p>grid-gap: 20px;</p></div>
+            <div><p>grid-template-columns: repeat(4, 1fr);</p></div>
 
             <h4>li:nth-child(1)</h4>
-            <div><p>grid-column: 1 / span 2;</p></div>
-            <div><p>grid-row: 1 / span 2;</p></div>
-            <div><p>z-index: 2;</p></div>
+            <div><p>grid-column: 2 / 3;</p></div>
+            <div><p>grid-row: 1 / 2;</p></div>
 
             <h4>li:nth-child(2)</h4>
-            <div><p>grid-column: 2 / span 3;</p></div>
-            <div><p>grid-row: 2 / span 4;</p></div>
+            <div><p>grid-column: 4 / 5;</p></div>
+            <div><p>grid-row: 2 / 3;</p></div>
 
             <h4>li:nth-child(3)</h4>
-            <div><p>grid-column: 4 / span 2;</p></div>
-            <div><p>grid-row: 4 / span 3;</p></div>
-            <div><p>z-index: 2;</p></div>
+            <div><p>grid-column: 3 / 4;</p></div>
+            <div><p>grid-row: 3 / 4;</p></div>
+
+            <h4>li:nth-child(4)</h4>
+            <div><p>grid-column: 1 / 2;</p></div>
+            <div><p>grid-row: 5 / 6;</p></div>
+
+            <h4>li:nth-child(5)</h4>
+            <div><p>grid-column: 4 / 5;</p></div>
+            <div><p>grid-row: 5 / 6;</p></div>
           </div>
         </section>
       </div>

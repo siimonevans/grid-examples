@@ -10,6 +10,7 @@ import Fluid from './components/Fluid/Fluid'
 import Responsive from './components/Responsive/Responsive'
 import Overlap from './components/Overlap/Overlap'
 import ExplicitlyPlaced from './components/ExplicitlyPlaced/ExplicitlyPlaced'
+import NegativeSpace from './components/NegativeSpace/NegativeSpace'
 import NotFound from './components/NotFound/NotFound'
 import './css/App.css'
 
@@ -36,6 +37,7 @@ class App extends Component {
             <Route path='Responsive' component={Responsive} />
             <Route path='Overlap' component={Overlap} />
             <Route path='ExplicitlyPlaced' component={ExplicitlyPlaced} />
+            <Route path='NegativeSpace' component={NegativeSpace} />
 
             // 404
             <Route path='*' component={NotFound} />
