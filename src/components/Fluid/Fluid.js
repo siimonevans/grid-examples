@@ -22,13 +22,6 @@ class Fluid extends Component {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
           </ul>
           <div className="explanation">
             <h4>ul</h4>
