@@ -1,0 +1,13 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1f1f1f;
+}
+
+.main {
+  transition: all 400ms ease;
+}
+
+.main--search {
+  transform: perspective( 600px ) rotateX( 2deg ) translate3d(0,60px,0);
+}

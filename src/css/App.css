@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+.App {
+	font-family: 'Asap', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 20px 0;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
