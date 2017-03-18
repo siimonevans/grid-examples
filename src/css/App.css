@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  background-color: #1F3AC1;
+}
+
 li {
   list-style: none;
 }

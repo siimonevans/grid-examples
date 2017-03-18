@@ -9,6 +9,7 @@ import Masonry3 from './components/Masonry/Masonry3'
 import Fluid from './components/Fluid/Fluid'
 import Responsive from './components/Responsive/Responsive'
 import Overlap from './components/Overlap/Overlap'
+import Overlap2 from './components/Overlap/Overlap2'
 import ExplicitlyPlaced from './components/ExplicitlyPlaced/ExplicitlyPlaced'
 import NegativeSpace from './components/NegativeSpace/NegativeSpace'
 import NotFound from './components/NotFound/NotFound'
@@ -36,6 +37,7 @@ class App extends Component {
             <Route path='Fluid' component={Fluid} />
             <Route path='Responsive' component={Responsive} />
             <Route path='Overlap' component={Overlap} />
+            <Route path='Overlap2' component={Overlap2} />
             <Route path='ExplicitlyPlaced' component={ExplicitlyPlaced} />
             <Route path='NegativeSpace' component={NegativeSpace} />
 
