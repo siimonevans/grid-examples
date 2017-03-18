@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Router, Route, IndexRoute, hashHistory } from 'react-router'
-import Navigation from './components/Navigation/Navigation'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
 import Masonry from './components/Masonry/Masonry'
@@ -19,7 +18,6 @@ const Container = (props) =>
   <div className="app-wrapper">
     <Header></Header>
     {props.children}
-    <Navigation></Navigation>
   </div>
 
 class App extends Component {
