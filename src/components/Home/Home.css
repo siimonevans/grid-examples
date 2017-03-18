@@ -12,9 +12,18 @@
   color: #1f3ac1;
   letter-spacing: 1.5px;
   text-decoration: none;
+  opacity: 0;
+  transform: translate3d(0, 100px 0);
   transition: 
     background-color 300ms ease,
+    opacity 300ms ease,
+    transform 300ms ease,
     color 300ms ease;
+}
+
+.home-grid a.fade-in {
+  opacity: 1;
+  transform: translate3d(0,0,0);
 }
 
 .home-grid a:hover {

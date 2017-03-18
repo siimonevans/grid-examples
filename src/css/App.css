@@ -7,15 +7,6 @@ body {
   background-color: #1F3AC1;
 }
 
-li {
-  list-style: none;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 .app {
   min-height: 100vh;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -26,6 +17,27 @@ ul {
 
 body {
   margin: 0;
+}
+
+@keyframes fadein {
+  from { 
+    opacity: 0; 
+    transform: translate3d(0, 10px, 0);
+  }
+  to { 
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+li {
+  list-style: none;
+  animation: fadein 1000ms;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {

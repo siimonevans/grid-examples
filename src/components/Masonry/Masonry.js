@@ -3,6 +3,7 @@ import './Masonry.css'
 
 class Masonry extends Component {
   render() {
+
     return (
       <div className="wrapper">
         <section className="masonry-1">

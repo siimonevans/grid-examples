@@ -4,12 +4,27 @@ import Support from '../../components/Support/Support'
 import './Home.css'
 
 class Home extends Component {
+  componentDidMount() {
+    function addClassWithDelay(targetElements, addClass, timing) {
+      for (let i = 0; i < targetElements.length; i++) {
+        (function (i) {
+          setTimeout(function () {
+            targetElements[i].className += addClass
+          }, timing * i)
+        })(i)
+      }
+    }
+
+    const homeTiles = document.getElementById('home-grid').querySelectorAll('a');  
+    addClassWithDelay(homeTiles, 'fade-in', 80);
+  }
+
   render() {
     return (
       <div className="wrapper">
         <h1>CSS Grids</h1>
         <Support></Support>
-        <div className="home-grid">
+        <div className="home-grid" id="home-grid">
           <Link to='/Masonry'><div>Masonry I</div></Link>
           <Link to='/Responsive'><div>Responsive</div></Link>
           <Link to='/Fluid'><div>Fluid</div></Link>
