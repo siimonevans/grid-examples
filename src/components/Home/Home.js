@@ -11,7 +11,7 @@ class Home extends Component {
           <Link to='/Masonry'><div>Masonry I</div></Link>
           <Link to='/Responsive'><div>Responsive</div></Link>
           <Link to='/Fluid'><div>Fluid</div></Link>
-          <Link to='/Overlapping'><div>Overlap I</div></Link>
+          <Link to='/Overlap'><div>Overlap I</div></Link>
           <Link to='/ExplicitlyPlaced'><div>Explicitly Placed</div></Link>
           <Link to='/NegativeSpace'><div>Negative Space</div></Link>
 

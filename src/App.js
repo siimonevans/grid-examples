@@ -8,6 +8,7 @@ import Masonry2 from './components/Masonry/Masonry2'
 import Masonry3 from './components/Masonry/Masonry3'
 import Fluid from './components/Fluid/Fluid'
 import Responsive from './components/Responsive/Responsive'
+import Overlap from './components/Overlap/Overlap'
 import NotFound from './components/NotFound/NotFound'
 import './css/App.css'
 
@@ -32,6 +33,7 @@ class App extends Component {
             <Route path='Masonry3' component={Masonry3} />
             <Route path='Fluid' component={Fluid} />
             <Route path='Responsive' component={Responsive} />
+            <Route path='Overlap' component={Overlap} />
 
             // 404
             <Route path='*' component={NotFound} />
