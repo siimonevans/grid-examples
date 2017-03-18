@@ -8,18 +8,18 @@ class Masonry3 extends Component {
         <section className="masonry-3">
           <h1>Masonry III</h1>
           <ul>
-            <li><div>1</div></li>
-            <li><div>2</div></li>
-            <li><div>3</div></li>
-            <li><div>4</div></li>
-            <li><div>5</div></li>
-            <li><div>6</div></li>
-            <li><div>7</div></li>
-            <li><div>8</div></li>
-            <li><div>9</div></li>
-            <li><div>10</div></li>
-            <li><div>11</div></li>
-            <li><div>12</div></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
           <div className="explanation">
             <h4>ul</h4>
