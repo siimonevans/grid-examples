@@ -1,6 +1,8 @@
 {
   "short_name": "css-grid",
   "name": "CSS Grid",
+  "background_color": "#1F3AC1",
+  "theme_color": "#1F3AC1",
   "icons": [
     {
       "src": "favicon.ico",
