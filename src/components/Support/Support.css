@@ -12,3 +12,9 @@
     display: none;
   } 
 }
+
+@supports not (display: grid) {
+  .home-grid {
+    display: none;
+  } 
+}
