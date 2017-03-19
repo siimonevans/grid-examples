@@ -1,5 +1,6 @@
 .wrapper--home {
   position: relative;
+  padding: 0 20px;
 }
 
 .home-grid {
