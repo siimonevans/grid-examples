@@ -6,6 +6,14 @@
   animation: slideIn 1000ms;
 }
 
+@media screen and (max-width: 1220px) {
+  .navigation {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+  }
+}
+
 .navigation__link {
   display: block;
   padding: 0 8px;

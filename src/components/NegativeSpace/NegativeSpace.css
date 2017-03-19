@@ -24,3 +24,23 @@
   letter-spacing: 1px;
   line-height: 1.4;
 }
+
+@media screen and (max-width: 800px) {
+  .negative-space li {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .negative-space li {
+    grid-column-start: auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .negative-space ul {
+    grid-template-columns: auto;
+    background-color: transparent;
+  }
+}

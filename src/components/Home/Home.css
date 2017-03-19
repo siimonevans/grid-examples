@@ -1,7 +1,6 @@
 .home-grid {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
 }
 
 .home-grid a {
@@ -75,4 +74,11 @@
 
 .home-grid a:nth-child(11) {
   grid-column: 3 / 5;
+}
+
+@media screen and (max-width: 800px) {
+  .home-grid a {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+  }
 }

@@ -99,3 +99,18 @@
   font-size: 12px;
   font-weight: 600;
 }
+
+@media screen and (max-width: 800px) {
+  .masonry-1 ul,
+  .masonry-2 ul,
+  .masonry-3 ul {
+    grid-template-columns: auto;
+  }
+
+  .masonry-1 li,
+  .masonry-2 li,
+  .masonry-3 li {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+  }
+}

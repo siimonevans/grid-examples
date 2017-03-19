@@ -3,3 +3,9 @@
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 20px;
 }
+
+@media screen and (max-width: 800px) {
+  .fluid ul {
+    grid-template-columns: auto;
+  }
+}

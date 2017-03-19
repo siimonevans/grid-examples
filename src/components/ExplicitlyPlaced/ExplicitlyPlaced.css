@@ -33,3 +33,14 @@
   grid-column: 3 / 4;
   grid-row: 4 / 5;
 }
+
+@media screen and (max-width: 800px) {
+  .explicitly-placed ul {
+    grid-template-columns: auto;
+  }
+
+  .explicitly-placed li {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+  }
+}
