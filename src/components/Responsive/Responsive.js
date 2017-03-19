@@ -6,7 +6,7 @@ class Responsive extends Component {
   render() {
     return (
       <div className="wrapper">
-        <Navigation></Navigation>
+        <Navigation />
         <section className="responsive">
           <h1>Responsive</h1>
           <ul>

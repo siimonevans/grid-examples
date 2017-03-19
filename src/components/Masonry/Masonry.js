@@ -7,7 +7,7 @@ class Masonry extends Component {
 
     return (
       <div className="wrapper">
-        <Navigation></Navigation>
+        <Navigation />
         <section className="masonry-1">
           <h1>Masonry I</h1>
           <ul>

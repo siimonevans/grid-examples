@@ -1,23 +1,15 @@
 import React, { Component } from 'react'
-import './Fluid.css'
+import './FlexibleBreadth.css'
 import Navigation from '../../components/Navigation/Navigation'
 
-class Fluid extends Component {
+class FlexibleBreadth extends Component {
   render() {
     return (
       <div className="wrapper">
         <Navigation />
-        <section className="fluid">
-          <h1>Fluid</h1>
+        <section className="flexible-breadth">
+          <h1>Flexible Breadth</h1>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
             <li></li>
             <li></li>
             <li></li>
@@ -29,7 +21,7 @@ class Fluid extends Component {
             <h4>ul</h4>
             <div><p>display: grid;</p></div>
             <div><p>grid-gap: 20px;</p></div>
-            <div><p>grid-template-columns: repeat(7, 1fr);</p></div>
+            <div><p>grid-template-columns: 200px 1fr 200px;</p></div>
           </div>
         </section>
       </div>
@@ -37,4 +29,4 @@ class Fluid extends Component {
   }
 }
 
-export default Fluid
+export default FlexibleBreadth

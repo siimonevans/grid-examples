@@ -6,7 +6,7 @@ class Overlap extends Component {
   render() {
     return (
       <div className="wrapper">
-        <Navigation></Navigation>
+        <Navigation />
         <section className="overlap">
           <h1>Overlap</h1>
           <ul>

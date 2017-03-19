@@ -6,7 +6,7 @@ class ExplicitlyPlaced extends Component {
   render() {
     return (
       <div className="wrapper">
-        <Navigation></Navigation>
+        <Navigation />
         <section className="explicitly-placed">
           <h1>Explicitly Placed</h1>
           <ul>

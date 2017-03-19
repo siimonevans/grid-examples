@@ -6,7 +6,7 @@ class Masonry2 extends Component {
   render() {
     return (
       <div className="wrapper">
-        <Navigation></Navigation>
+        <Navigation />
         <section className="masonry-2">
           <h1>Masonry II</h1>
           <ul>
