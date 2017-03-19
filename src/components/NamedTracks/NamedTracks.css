@@ -29,9 +29,3 @@
   grid-column: middle;
   grid-row: area-footer;
 }
-
-@media screen and (max-width: 800px) {
-  .flexible-breadth ul {
-    grid-template-columns: auto;
-  }
-}
