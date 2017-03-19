@@ -23,7 +23,7 @@ class Home extends Component {
     return (
       <div className="wrapper">
         <h1>CSS Grid examples</h1>
-        <Support></Support>
+        <Support />
         <div className="home-grid" id="home-grid">
           <Link to='/Masonry'><div>Masonry I</div></Link>
           <Link to='/Responsive'><div>Responsive</div></Link>
@@ -31,11 +31,11 @@ class Home extends Component {
           <Link to='/Overlap'><div>Overlap I</div></Link>
           <Link to='/ExplicitlyPlaced'><div>Explicitly Placed</div></Link>
           <Link to='/NegativeSpace'><div>Negative Space</div></Link>
-          <Link to='/'><div></div></Link>
+          <Link to='/FlexibleBreadth'><div>Flexible Breadth</div></Link>
           <Link to='/Masonry2'><div>Masonry II</div></Link>
           <Link to='/Masonry3'><div>Masonry III</div></Link>
           <Link to='/Overlap2'><div>Overlap II</div></Link>
-          <Link to='/'><div></div></Link>
+          <Link to='/NamedTracks'><div>Named Tracks</div></Link>
         </div>
       </div>
     )

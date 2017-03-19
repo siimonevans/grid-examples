@@ -11,6 +11,8 @@ import Overlap from './components/Overlap/Overlap'
 import Overlap2 from './components/Overlap/Overlap2'
 import ExplicitlyPlaced from './components/ExplicitlyPlaced/ExplicitlyPlaced'
 import NegativeSpace from './components/NegativeSpace/NegativeSpace'
+import FlexibleBreadth from './components/FlexibleBreadth/FlexibleBreadth'
+import NamedTracks from './components/NamedTracks/NamedTracks'
 import NotFound from './components/NotFound/NotFound'
 import './css/App.css'
 
@@ -38,6 +40,8 @@ class App extends Component {
             <Route path='Overlap2' component={Overlap2} />
             <Route path='ExplicitlyPlaced' component={ExplicitlyPlaced} />
             <Route path='NegativeSpace' component={NegativeSpace} />
+            <Route path='FlexibleBreadth' component={FlexibleBreadth} />
+            <Route path='NamedTracks' component={NamedTracks} />
 
             // 404
             <Route path='*' component={NotFound} />
