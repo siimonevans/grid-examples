@@ -1,0 +1,37 @@
+.named-tracks ul {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: [top] 100px [area-main] 1fr [area-footer] 50px [bottom];
+  grid-template-columns: [left area-nav] 200px [middle area-main] 1fr [right];
+  min-height: 600px;
+}
+
+.named-tracks li {
+  min-height: auto;
+}
+
+.named-tracks li#area-title {
+  grid-column: left / right;
+  grid-row: top;
+}
+
+.named-tracks li#area-nav {
+  grid-column: area-nav;
+  grid-row: area-main / bottom;
+}
+
+.named-tracks li#area-main {
+  grid-column: area-main;
+  grid-row: area-main; 
+}
+
+.named-tracks li#area-footer {
+  grid-column: middle;
+  grid-row: area-footer;
+}
+
+@media screen and (max-width: 800px) {
+  .flexible-breadth ul {
+    grid-template-columns: auto;
+  }
+}
