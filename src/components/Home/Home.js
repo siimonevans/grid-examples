@@ -28,13 +28,13 @@ class Home extends Component {
           <Link to='/Masonry'><div>Masonry I</div></Link>
           <Link to='/Responsive'><div>Responsive</div></Link>
           <Link to='/Fluid'><div>Fluid</div></Link>
-          <Link to='/Overlap'><div>Overlap I</div></Link>
+          <Link to='/Overlap'><div>Overlap</div></Link>
           <Link to='/ExplicitlyPlaced'><div>Explicitly Placed</div></Link>
           <Link to='/NegativeSpace'><div>Negative Space</div></Link>
           <Link to='/FlexibleBreadth'><div>Flexible Breadth</div></Link>
           <Link to='/Masonry2'><div>Masonry II</div></Link>
           <Link to='/Masonry3'><div>Masonry III</div></Link>
-          <Link to='/Overlap2'><div>Overlap II</div></Link>
+          <Link to='/DOMOrder'><div>DOM Order</div></Link>
           <Link to='/NamedTracks'><div>Named Tracks</div></Link>
         </div>
       </div>
