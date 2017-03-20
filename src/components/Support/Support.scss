@@ -5,12 +5,17 @@
   line-height: 1.2;
   letter-spacing: 1px;
   background-color: #fff;
-  color: #1f3ac1; }
+  color: #1f3ac1;
+}
 
 @supports (display: grid) {
   .no-support {
-    display: none; } }
+    display: none;
+  } 
+}
 
 @supports not (display: grid) {
   .home-grid {
-    display: none; } }
+    display: none;
+  } 
+}

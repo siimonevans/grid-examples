@@ -1,8 +1,11 @@
 .flexible-breadth ul {
   display: grid;
   grid-template-columns: 300px 1fr 300px;
-  grid-gap: 20px; }
+  grid-gap: 20px;
+}
 
 @media screen and (max-width: 800px) {
   .flexible-breadth ul {
-    grid-template-columns: auto; } }
+    grid-template-columns: auto;
+  }
+}
