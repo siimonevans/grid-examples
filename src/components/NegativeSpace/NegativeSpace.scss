@@ -1,36 +1,46 @@
 .negative-space ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #1a32ab; }
+  background-color: #1a32ab;
+}
 
 .negative-space li {
   grid-column-start: 2;
   padding: 250px 70px;
   height: auto;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .negative-space li h1 {
   margin-top: 0;
   padding: 0;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 .negative-space li p {
   margin-bottom: 0;
   font-weight: 300;
   font-size: 17px;
   letter-spacing: 1px;
-  line-height: 1.4; }
+  line-height: 1.4;
+}
 
 @media screen and (max-width: 800px) {
   .negative-space li {
-    padding: 30px; } }
+    padding: 30px;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .negative-space li {
     grid-column-start: auto;
-    padding: 0; } }
+    padding: 0;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .negative-space ul {
     grid-template-columns: auto;
-    background-color: transparent; } }
+    background-color: transparent;
+  }
+}

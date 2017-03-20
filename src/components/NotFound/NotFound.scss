@@ -1,11 +1,14 @@
 .not-found {
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+}
 
 .not-found a {
   color: #fff;
   text-decoration: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  transition: border 300ms ease; }
+  transition: border 300ms ease;
+}
 
 .not-found a:hover {
-  border-color: #fff; }
+  border-color: #fff;
+}
