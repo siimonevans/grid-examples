@@ -4,4 +4,4 @@ build
 .DS_Store
 .env
 npm-debug.log
-src/**/*.css
+src/**/**/*.css
