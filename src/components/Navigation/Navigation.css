@@ -28,7 +28,7 @@
   transition: transform 300ms ease; }
 
 .navigation__link:hover {
-  background-color: #172D9C; }
+  background-color: #192f9e; }
 
 .navigation__link:hover svg {
   transform: translate3d(-4px, -50%, 0); }

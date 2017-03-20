@@ -1,3 +1,5 @@
+@import '../../css/Config.scss';
+
 .wrapper--home {
   position: relative;
   padding: 0 20px;
@@ -13,7 +15,7 @@
   width: 100%;
   min-height: 150px;
   background-color: #fff;
-  color: #1f3ac1;
+  color: $color--primary;
   letter-spacing: 1.5px;
   text-decoration: none;
   opacity: 0;
@@ -31,7 +33,7 @@
 }
 
 .home-grid a:hover {
-  background-color: #1a32ab;
+  background-color: darken($color--primary, 8%);
   color: #fff;
 }
 
