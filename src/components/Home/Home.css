@@ -11,7 +11,7 @@
   width: 100%;
   min-height: 150px;
   background-color: #fff;
-  color: #1f3ac1;
+  color: #1F3AC1;
   letter-spacing: 1.5px;
   text-decoration: none;
   opacity: 0;
@@ -23,7 +23,7 @@
   transform: translate3d(0, 0, 0); }
 
 .home-grid a:hover {
-  background-color: #1a32ab;
+  background-color: #192f9e;
   color: #fff; }
 
 .home-grid div {

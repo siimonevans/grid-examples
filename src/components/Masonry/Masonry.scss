@@ -1,3 +1,5 @@
+@import '../../css/Config.scss';
+
 .masonry-1 ul {
   display: grid;
   grid-gap: 20px;
@@ -93,7 +95,7 @@
 }
 
 .masonry-3 li div {
-  background-color: #1f3ac1;
+  background-color: $color--primary;
   color: #fff;
   display: inline-block;
   padding: 5px 9px;

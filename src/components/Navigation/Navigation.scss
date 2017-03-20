@@ -1,3 +1,5 @@
+@import '../../css/Config.scss';
+
 .navigation {
   position: fixed;
   top: 0;
@@ -33,7 +35,7 @@
 }
 
 .navigation__link:hover {
-  background-color: #172D9C;
+  background-color: darken($color--primary, 8%);
 }
 
 .navigation__link:hover svg {

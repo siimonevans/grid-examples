@@ -1,3 +1,5 @@
+@import '../../css/Config.scss';
+
 .no-support {
   margin-top: 0;
   padding: 20px;
@@ -5,7 +7,7 @@
   line-height: 1.2;
   letter-spacing: 1px;
   background-color: #fff;
-  color: #1f3ac1;
+  color: $color--primary;
 }
 
 @supports (display: grid) {

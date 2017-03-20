@@ -1,17 +1,19 @@
+@import './Config.scss';
+
 * {
   box-sizing: border-box;
 }
 
 html,
 body {
-  background-color: #1F3AC1;
+  background-color: $color--primary;
 }
 
 .app {
   min-height: 100vh;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
-  background-color: #1F3AC1;
+  background-color: $color--primary;
   color: #fff;
 }
 
