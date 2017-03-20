@@ -15,7 +15,7 @@
     "react-router": "^3.0.2"
   },
   "scripts": {
-    "build-css": "node-sass --output-style compressed src/ -o src/",
+    "build-css": "node-sass src/ -o src/",
     "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
