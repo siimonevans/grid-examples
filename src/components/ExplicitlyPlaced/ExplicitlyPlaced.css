@@ -11,26 +11,31 @@
 
 .explicitly-placed li:nth-child(1) {
   grid-column: 1 / 2;
+  /* autoprefixer: off */
   grid-row: 1 / 2;
 }
 
 .explicitly-placed li:nth-child(2) {
   grid-column: 4 / 5;
+  /* autoprefixer: off */
   grid-row: 2 / 3;
 }
 
 .explicitly-placed li:nth-child(3) {
   grid-column: 2 / 3;
+  /* autoprefixer: off */
   grid-row: 3 / 4;
 }
 
 .explicitly-placed li:nth-child(4) {
   grid-column: 1 / 2;
+  /* autoprefixer: off */
   grid-row: 4 / 5;
 }
 
 .explicitly-placed li:nth-child(5) {
   grid-column: 3 / 4;
+  /* autoprefixer: off */
   grid-row: 4 / 5;
 }
 
