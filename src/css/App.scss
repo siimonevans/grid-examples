@@ -6,19 +6,22 @@
 
 html,
 body {
+  margin: 0;
   background-color: $color--primary;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .app {
   min-height: 100vh;
+  padding: 50px 0;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
   background-color: $color--primary;
   color: #fff;
-}
-
-body {
-  margin: 0;
 }
 
 @keyframes fadeIn {
@@ -48,9 +51,9 @@ li {
   animation: fadeIn 1000ms;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+section li {
+  min-height: 200px;
+  background-color: #fff;
 }
 
 h1 {
@@ -68,22 +71,13 @@ h4 {
 .wrapper {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 20px;
-}
-
-.app-wrapper {
-  padding: 50px 0;
+  padding: 0 50px;
 }
 
 @media screen and (max-width: 1220px) {
-  .app-wrapper {
-    padding: 50px 20px;
+  .wrapper {
+    padding: 0 20px;
   }
-}
-
-section li {
-  min-height: 200px;
-  background-color: #fff;
 }
 
 .explanation {
@@ -109,7 +103,7 @@ section li {
 .twitter {
   position: absolute;
   top: 5px;
-  right: 10px;
+  right: 40px;
   padding: 10px 10px 7px;
   z-index: 3;
   transition:
@@ -117,7 +111,7 @@ section li {
 }
 
 .twitter {
-  right: 40px;
+  right: 70px;
 }
 
 .info:hover,
@@ -130,6 +124,16 @@ section li {
   width: 20px;
   height: 20px;
   fill: #fff;
+}
+
+@media screen and (max-width: 1220px) {
+  .info {
+    right: 10px;
+  }
+
+  .twitter {
+    right: 40px;
+  }
 }
 
 @media screen and (max-width: 600px) {
