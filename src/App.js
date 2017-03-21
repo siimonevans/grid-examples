@@ -15,10 +15,7 @@ import DOMOrder from './components/DOMOrder/DOMOrder'
 import NotFound from './components/NotFound/NotFound'
 import './css/App.css'
 
-const Container = (props) => 
-  <div className="app-wrapper">
-    {props.children}
-  </div>
+const Container = (props) => props.children
 
 class App extends Component {
   render() {
